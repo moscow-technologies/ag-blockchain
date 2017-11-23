@@ -13,7 +13,7 @@
 **Выполняем следующие команды в bash (для Linux и MacOS) или powershell (для Windows, от имени администратора):**
 
 0. Скачиваем конфигурацию из репозитория ```git clone https://github.com/moscow-technologies/ag-blockchain.git```
-1. Переходим в каталог с конфигурацией ```cd /ag-blockchain```
+1. Переходим в каталог с конфигурацией ```cd ag-blockchain```
 2. Запускаем parity командой ```docker-compose up -d```
 3. Получаем и копируем токен (примерно такой *Q7J9-ofgq-EEJU-9nVt*) для авторизации в Parity UI `docker-compose logs | grep token=`
 
