@@ -4,6 +4,16 @@
 
 ## Инструкция по развертыванию ##
 
+**Установка на Windows**
+
+1. Скачать и установить [Parity](https://parity-downloads-mirror.parity.io/v1.7.7/x86_64-pc-windows-msvc/InstallParity.exe)
+2. Найти папку, куда установилась программа `parity.exe` (обычно `C:\Program Files\Parity\Parity`) и перейти в нее
+3. Открыть [ссылку](https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/parity/config/chain.json) и сохранить файл (`Ctrl+S`) в папку из предыдущего пункта
+4. Открыть командную строку (нажать `Windows+R` и напечатать `cmd`, нажать `Выполнить`)
+5. Перейти в папку с `parity.exe` командой `cd C:\Program Files\Parity\Parity`
+6. В командной строке выполнить `parity ui --bootnodes   enode://9076c143a487aa163437a86f7d009f257f405c50bb2316800b9c9cc40e5a38fef5b414a47636ec38fdabc8a1872b563effa8574a7f8f85dc6bde465c368f1bf5@213.79.88.177:30303 --chain chain.json`
+7. Откроется веб-интерфейс, дальше выполнить пункты из `Инструкция по просмотру результатов опросов`
+
 **Для установки блокчейн-ноды (используемая реализация блокчейн Parity) необходимо предварительно выполнить шаги:**
 
 0. Установить и запустить [Docker](https://www.docker.com) (все необходимые требования и инструкции по установке есть на указанном сайте) 
