@@ -11,7 +11,9 @@
             "0x00Aa39d30F0D20FF03a22cCfc30B7EfbFca597C2",
             "0x002e28950558fbede1a9675cb113f0bd20912019"
           ]
-        }
+        },
+        "validateScoreTransition": 1000000000,
+        "validateStepTransition": 1500000000
       }
     }
   },
