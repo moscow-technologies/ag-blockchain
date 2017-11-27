@@ -30,7 +30,7 @@
 ВАЖНО: Синхронизация данных блокчейн происходит только когда открыта командная строка Windows. При закрытии командной строки работа приложения прекращается, для возобновления нужно выполнить все шаги, указанные выше, начиная с п.6.
 
 
-**Установка на MacOS**
+**Установка на MacOS** // не работает пункт №4: "Spec json is invalid: missing field `gasLimitBoundDivisor` at line 24 column 3"
 1. Открыть терминал и выполнить `brew tap paritytech/paritytech` а затем `brew install parity --v1.7.9`
 2. Открыть [ссылку](https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/parity/config/chain.json) и сохранить файл `chain.json` (`Ctrl+S`) в произвольную папку (сохранить как: Программный код страницы, оставив в названии файла только chain.json)
 3. Перейти в папку с `chain.json` командой в терминале `cd ` и далее путь к файлу, например 
