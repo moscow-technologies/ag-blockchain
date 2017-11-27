@@ -6,7 +6,7 @@
 
 Упрощенные инструкции с подсказами и снимками экрана можно просмотреть по ссылкам:
 1. [Установка на Windows и проверка результатов](https://docs.google.com/document/d/1IqVlEOK5d8DtVC81ILnkFmVER-X3HwU9qltYqTvANGM/edit?usp=sharing) 
-2. [Установка на MacOS] (https://docs.google.com/document/d/1RjnHxwzEFhlyFzpiZLXf_TEqrT6jeNqUQvyolaLqcTs/edit?usp=sharing)
+2. [Установка на MacOS](https://docs.google.com/document/d/1RjnHxwzEFhlyFzpiZLXf_TEqrT6jeNqUQvyolaLqcTs/edit?usp=sharing)
 
 
 ## Инструкция по развертыванию Parity UI (используемая реализация блокчейн) ##
