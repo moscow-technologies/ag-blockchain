@@ -15,7 +15,7 @@
 7. В командной строке выполнить `parity ui --bootnodes   enode://9076c143a487aa163437a86f7d009f257f405c50bb2316800b9c9cc40e5a38fef5b414a47636ec38fdabc8a1872b563effa8574a7f8f85dc6bde465c368f1bf5@213.79.88.177:30303 --chain chain.json`
 8. Откроется веб-интерфейс, дальше выполнить пункты из `Инструкция по просмотру результатов опросов`
 
-**Установка на MacOS**
+**Установка на MacOS** // не работает пункт №4: "Spec json is invalid: missing field `gasLimitBoundDivisor` at line 24 column 3"
 1. Открыть терминал и выполнить `brew tap paritytech/paritytech` а затем `brew install parity --v1.7.9`
 2. Открыть [ссылку](https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/parity/config/chain.json) и сохранить файл `chain.json` (`Ctrl+S`) в произвольную папку (сохранить как: Программный код страницы, оставив в названии файла только chain.json)
 3. Перейти в папку с `chain.json` командой в терминале `cd ` и далее путь к файлу, например 
