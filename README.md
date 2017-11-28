@@ -36,6 +36,7 @@
 
 
 **Установка на MacOS**
+0. Проверить, что на комьютере установлено приложение `Homebrew`. В случе его отсутствия осуществить установку по [ссыылке](https://github.com/paritytech/homebrew-paritytech);
 1. Открыть терминал и выполнить `brew tap paritytech/paritytech` а затем `brew install parity --stable`
 2. Открыть [ссылку](https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/parity/config/chain.json) и сохранить файл `chain.json` (`Ctrl+S`) в произвольную папку (сохранить как: Программный код страницы, оставив в названии файла только chain.json)
 3. Перейти в папку с `chain.json` командой в терминале `cd ` и далее путь к файлу, например 
