@@ -3,7 +3,6 @@
   "engine": {
     "authorityRound": {
       "params": {
-        "gasLimitBoundDivisor": "0x400",
         "stepDuration": "1",
         "validators": {
           "list": [
@@ -12,12 +11,14 @@
             "0x002e28950558fbede1a9675cb113f0bd20912019"
           ]
         },
-        "validateScoreTransition": 1000000000,
-        "validateStepTransition": 1500000000
+        "validateScoreTransition": 53053000,
+	"validateStepTransition": 100000000,
+        "maximumUncleCountTransition": "53053000"
       }
     }
   },
   "params": {
+    "gasLimitBoundDivisor": "0x400",
     "maximumExtraDataSize": "0x20",
     "minGasLimit": "0x1388",
     "networkID": "0x2323"
