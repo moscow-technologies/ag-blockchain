@@ -1,0 +1,20 @@
+version: '2.1'
+services:
+  member:
+    restart: always
+    image: parity/parity:v1.11.8
+    command:
+      --config /parity/config/member.toml
+      --ws-interface all
+    volumes:
+      - ./parity/config:/parity/config:ro
+    ports:
+      - 8180:8180
+      - 8546:8546
+      - 30303:30303
+
+  monitor:
+      restart: always
+      image: buythewhale/ethstats_monitor
+      volumes:
+        - ./monitor/app.json:/home/ethnetintel/eth-net-intelligence-api/app.json:ro
