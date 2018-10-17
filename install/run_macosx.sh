@@ -22,7 +22,7 @@ wget https://github.com/parity-js/shell/releases/download/v0.1.4/parity-ui-0.1.4
 sudo installer -pkg parity-ui-0.1.4.pkg -target /
 rm parity-ui-0.1.4.pkg
 
-wget -q https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/parity/config/chain.json -O chain.json
+wget -q https://raw.githubusercontent.com/moscow-technologies/ag-blockchain/master/install/chain.json -O chain.json
 
 parity signer new-token
 
